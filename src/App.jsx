@@ -1,13 +1,30 @@
 import './App.css'
 
+import Header from './components/Header'
+import TableFood from './components/TableFood'
+import ButtonGroup from './components/ButtonGroup'
+import InputGroup from './components/InputGroup'
+
+
 
 function App() {
-  
+
 
   return (
     <>
-      <p>Base site</p>
-     
+      <Header></Header>
+      <main>
+        <section className='left-section'>
+          <ButtonGroup></ButtonGroup>
+          <TableFood></TableFood>
+        </section>
+        <section className='right-section'>
+          <p>Buttons</p>
+          <InputGroup></InputGroup>
+        </section>
+        
+      
+      </main>
     </>
   )
 }
