@@ -1,17 +1,14 @@
 import './App.css'
 import "./styles/Fonts.css"
-
-
-
 import Header from './components/Header'
 import TableFood from './components/TableFood'
 import ButtonGroup from './components/ButtonGroup'
 import InputGroup from './components/InputGroup'
+import { useState } from 'react'
 
 
 
 function App() {
-
 
   return (
     <>
