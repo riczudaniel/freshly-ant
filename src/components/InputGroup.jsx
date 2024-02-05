@@ -1,4 +1,7 @@
 
+import "../styles/InputGroup.css"
+
+
 import { Button, Input, Select, Space } from 'antd';
 
 export default function InputGroup(){
@@ -42,19 +45,17 @@ export default function InputGroup(){
             value: 'snacks',
             label: 'Snacks',
         },
-        {
-            value: 'grains',
-            label: 'Grains',
-        },
       ];
     return(
-        <div>
+        <div id="input-holder">
             <Space.Compact>
-                <Input defaultValue="" placeholder='Enter Product Name' />
+                <Input className="product-inputs"  defaultValue="" placeholder='Enter Product Name' />
             </Space.Compact>
-            <Select defaultValue="selectGroup" options={options}  />
             <Space.Compact>
-                <Input defaultValue="" placeholder='Enter Expiration Date' />
+                <Select className="product-inputs" defaultValue="selectGroup" options={options}  />
+            </Space.Compact>
+            <Space.Compact>
+                <Input className="product-inputs" defaultValue="" placeholder='Enter Expiration Date' type="date" />
             </Space.Compact>
             
         </div>

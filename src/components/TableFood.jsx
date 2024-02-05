@@ -1,7 +1,8 @@
-
 import { Space, Table, Tag } from 'antd';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 
+//DATABASE
+import data from '../data.json';
 
 const columns = [
   {
@@ -44,26 +45,6 @@ const columns = [
         <DeleteOutlined />
       </Space>
     ),
-  },
-];
-const data = [
-  {
-    key: '1',
-    product: 'John Brown',
-    group: 32,
-    tags: ['> 7 days'],
-  },
-  {
-    key: '2',
-    product: 'Jim Green',
-    group: 42,
-    tags: ['3 days'],
-  },
-  {
-    key: '3',
-    product: 'Joe Black',
-    group: 32,
-    tags: ['7 DAYS'],
   },
 ];
 

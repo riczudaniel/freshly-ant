@@ -1,5 +1,6 @@
 body{
   margin: 0 auto;
+  padding: 10px 20px;
 }
 
 main {
@@ -7,14 +8,11 @@ main {
   justify-content: space-around;
 }
 
-
-
-
 .left-section {
   display: flex;
   flex-direction: column;
+  
 }
-
 
 .right-section {
   display: flex;

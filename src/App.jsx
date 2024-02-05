@@ -1,4 +1,7 @@
 import './App.css'
+import "./styles/Fonts.css"
+
+
 
 import Header from './components/Header'
 import TableFood from './components/TableFood'
@@ -15,7 +18,7 @@ function App() {
       <Header></Header>
       <main>
         <section className='left-section'>
-          <ButtonGroup></ButtonGroup>
+          <ButtonGroup className="buttonGroup"></ButtonGroup>
           <TableFood></TableFood>
         </section>
         <section className='right-section'>
