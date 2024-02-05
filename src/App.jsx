@@ -22,7 +22,7 @@ function App() {
           <TableFood></TableFood>
         </section>
         <section className='right-section'>
-          <p>Buttons</p>
+          <p>Track a new product</p>
           <InputGroup></InputGroup>
         </section>
         

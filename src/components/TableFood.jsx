@@ -2,7 +2,8 @@ import { Space, Table, Tag } from 'antd';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 
 //DATABASE
-import data from '../data.json';
+import foodData from '../data.json';
+
 
 const columns = [
   {
@@ -48,5 +49,5 @@ const columns = [
   },
 ];
 
-const TableFood = () => <Table columns={columns} dataSource={data} />;
+const TableFood = () => <Table columns={columns} dataSource={foodData.products} />;
 export default TableFood;
